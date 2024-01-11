@@ -22,4 +22,3 @@ print(np.array(df[['Bounce Rate', 'Visitors']]))
 #print(df.Visitors), doesnt work for name spaces cus syntax_err
 #df.head()
 #df.tail
-#idk if this works
