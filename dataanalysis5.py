@@ -37,8 +37,11 @@ def get_data():
     
 pickle_in = open('states_data.pickle', 'rb')
 HPI_data = pickle.load(pickle_in)
-print(HPI_data)
 
+
+HPI_data.to_pickle('pand.pickle')
+HPI_data2 = pd.read_pickle('pand.pickle')
+print(HPI_data2)
 
         
 
